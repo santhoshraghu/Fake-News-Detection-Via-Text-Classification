@@ -103,7 +103,7 @@ python -m fake_news_service.api
 ### Production Mode
 
 ```bash
-uvicorn fake_news_service.api:app --host 0.0.0.0 --port 8000 --workers 4
+python -m uvicorn fake_news_service.api:app --host 0.0.0.0 --port 8000 --workers 4
 ```
 
 The API will be available at `http://localhost:8000`
